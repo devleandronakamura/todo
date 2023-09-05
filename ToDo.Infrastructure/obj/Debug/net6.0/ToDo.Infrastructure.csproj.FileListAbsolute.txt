@@ -1,0 +1,15 @@
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\bin\Debug\net6.0\ToDo.Infrastructure.deps.json
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\bin\Debug\net6.0\ToDo.Infrastructure.dll
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\bin\Debug\net6.0\ToDo.Infrastructure.pdb
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\bin\Debug\net6.0\ToDo.Domain.dll
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\bin\Debug\net6.0\ToDo.Domain.pdb
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.AssemblyInfo.cs
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.csproj.CopyComplete
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.dll
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\refint\ToDo.Infrastructure.dll
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ToDo.Infrastructure.pdb
+C:\Users\leand\Downloads\ToDo\ToDo.Infrastructure\obj\Debug\net6.0\ref\ToDo.Infrastructure.dll
