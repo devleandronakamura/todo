@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj"
+              },
               "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj"
               }
@@ -46,7 +49,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
@@ -69,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj": {
+    "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj",
-        "projectName": "ToDo.Domain",
-        "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj",
+        "projectName": "ToDo.Core",
+        "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,8 +151,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj": {
-                "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj"
+              "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj": {
+                "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj"
               }
             }
           }

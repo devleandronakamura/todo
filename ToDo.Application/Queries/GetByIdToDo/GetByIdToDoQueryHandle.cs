@@ -19,6 +19,9 @@ namespace ToDo.Application.Queries.GetByIdToDo
         {
             var toDoModel = await _context.ToDo.SingleOrDefaultAsync(x => !x.Deleted && x.Id == request.Id);
 
+            if (toDoModel is null)
+                return new ToDoViewModel();
+
             return ToDoMapper.ToDoViewModel(toDoModel);
         }
     }

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ToDo.Application.Commands.CreateToDo;
 using ToDo.Application.Commands.DeleteToDo;
+using ToDo.Application.Commands.UpdateByIdToDo;
 using ToDo.Application.Queries.GetAllToDo;
 using ToDo.Application.Queries.GetByIdToDo;
 
@@ -23,7 +24,7 @@ namespace ToDo.API.Controllers
         {
             var id = await _mediator.Send(command);
 
-            return NoContent();
+            return CreatedAtAction(nameof(GetById), new { Id = id }, command);
         }
 
         [HttpGet]
@@ -49,11 +50,21 @@ namespace ToDo.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteById(Guid id)
         {
-            var query = new DeleteByIdToDoCommand() { Id = id };
+            var command = new DeleteByIdToDoCommand() { Id = id };
 
-            var toDo = await _mediator.Send(query);
+            var toDo = await _mediator.Send(command);
 
             return Ok(toDo);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Put(UpdateByIdToDoCommand input)
+        {
+            var command = new UpdateByIdToDoCommand() { Id = input.Id, Description = input.Description, IsActive = input.IsActive };
+
+            await _mediator.Send(command);
+
+            return NoContent();
         }
     }
 }

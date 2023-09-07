@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Models;
+using ToDo.Core.Models;
 
 namespace ToDo.Infrastructure.Persistence
 {

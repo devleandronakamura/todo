@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using ToDo.Domain.Models;
+using ToDo.Core.Models;
 using ToDo.Infrastructure.Persistence;
 
 namespace ToDo.Application.Commands.CreateToDo

@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.10",
           "Swashbuckle.AspNetCore": "6.5.0",
           "ToDo.Application": "1.0.0",
+          "ToDo.Core": "1.0.0",
           "ToDo.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -227,21 +228,22 @@
       "ToDo.Application/1.0.0": {
         "dependencies": {
           "MediatR": "12.1.1",
+          "ToDo.Core": "1.0.0",
           "ToDo.Infrastructure": "1.0.0"
         },
         "runtime": {
           "ToDo.Application.dll": {}
         }
       },
-      "ToDo.Domain/1.0.0": {
+      "ToDo.Core/1.0.0": {
         "runtime": {
-          "ToDo.Domain.dll": {}
+          "ToDo.Core.dll": {}
         }
       },
       "ToDo.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.10",
-          "ToDo.Domain": "1.0.0"
+          "ToDo.Core": "1.0.0"
         },
         "runtime": {
           "ToDo.Infrastructure.dll": {}
@@ -414,7 +416,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ToDo.Domain/1.0.0": {
+    "ToDo.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

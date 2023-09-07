@@ -1,10 +1,10 @@
 C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Application.deps.json
 C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Application.dll
 C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Application.pdb
-C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Domain.dll
+C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Core.dll
 C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Infrastructure.dll
 C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Infrastructure.pdb
-C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Domain.pdb
+C:\Users\leand\Downloads\ToDo\ToDo.Application\bin\Debug\net6.0\ToDo.Core.pdb
 C:\Users\leand\Downloads\ToDo\ToDo.Application\obj\Debug\net6.0\ToDo.Application.csproj.AssemblyReference.cache
 C:\Users\leand\Downloads\ToDo\ToDo.Application\obj\Debug\net6.0\ToDo.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\leand\Downloads\ToDo\ToDo.Application\obj\Debug\net6.0\ToDo.Application.AssemblyInfoInputs.cache

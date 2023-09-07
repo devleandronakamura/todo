@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj",
-      "projectName": "ToDo.Domain",
-      "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Core.csproj",
+      "projectName": "ToDo.Core",
+      "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\ToDo.Core.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Domain\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,5 +1,5 @@
 ﻿using ToDo.Application.ViewModels;
-using ToDo.Domain.Models;
+using ToDo.Core.Models;
 
 namespace ToDo.Application.Mappers
 {
@@ -25,9 +25,6 @@ namespace ToDo.Application.Mappers
 
         public static ToDoViewModel ToDoViewModel(ToDoModel toDoModel)
         {
-            if (toDoModel is null) 
-                return new ToDoViewModel();
-
             return  new ToDoViewModel()
                     {
                         Id = toDoModel.Id,

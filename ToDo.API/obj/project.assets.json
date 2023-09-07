@@ -367,7 +367,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MediatR": "12.1.1",
+          "MediatR": "11.1.0",
+          "ToDo.Core": "1.0.0",
           "ToDo.Infrastructure": "1.0.0"
         },
         "compile": {
@@ -377,14 +378,14 @@
           "bin/placeholder/ToDo.Application.dll": {}
         }
       },
-      "ToDo.Domain/1.0.0": {
+      "ToDo.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/ToDo.Domain.dll": {}
+          "bin/placeholder/ToDo.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ToDo.Domain.dll": {}
+          "bin/placeholder/ToDo.Core.dll": {}
         }
       },
       "ToDo.Infrastructure/1.0.0": {
@@ -392,7 +393,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.10",
-          "ToDo.Domain": "1.0.0"
+          "ToDo.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ToDo.Infrastructure.dll": {}
@@ -1139,10 +1140,10 @@
       "path": "../ToDo.Application/ToDo.Application.csproj",
       "msbuildProject": "../ToDo.Application/ToDo.Application.csproj"
     },
-    "ToDo.Domain/1.0.0": {
+    "ToDo.Core/1.0.0": {
       "type": "project",
-      "path": "../ToDo.Domain/ToDo.Domain.csproj",
-      "msbuildProject": "../ToDo.Domain/ToDo.Domain.csproj"
+      "path": "../ToDo.Core/ToDo.Core.csproj",
+      "msbuildProject": "../ToDo.Core/ToDo.Core.csproj"
     },
     "ToDo.Infrastructure/1.0.0": {
       "type": "project",
@@ -1157,6 +1158,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "ToDo.Application >= 1.0.0",
+      "ToDo.Core >= 1.0.0",
       "ToDo.Infrastructure >= 1.0.0"
     ]
   },
@@ -1189,6 +1191,9 @@
           "projectReferences": {
             "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Application\\ToDo.Application.csproj": {
               "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Application\\ToDo.Application.csproj"
+            },
+            "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj": {
+              "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj"
             },
             "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj"

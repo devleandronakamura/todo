@@ -17,6 +17,9 @@ namespace ToDo.Application.Commands.DeleteToDo
         {
             var toDo = await _context.ToDo.SingleOrDefaultAsync(x => !x.Deleted && x.Id == request.Id);
 
+            if (toDo is null)
+                return Unit.Value;
+
             toDo.Delete();
 
             await _context.SaveChangesAsync();

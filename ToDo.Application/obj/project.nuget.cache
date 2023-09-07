@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DjsyJRKeP23oLXFSondt+6aUqqv4ET+oTaMQL8F5MPjQHKVNfXCfZxcby3/hsNM25UqSHtWT8d/7p3+aweWtWQ==",
+  "dgSpecHash": "+Xawsue6BdQUYsFBcSvdG7mwUp5/XjzHihjHHsVEu4EcgxIjVkI8ni8OV4ObBy9yX2kusMSVdRJEhbyuKSNrJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Application\\ToDo.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\leand\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
-    "C:\\Users\\leand\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.10\\microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",

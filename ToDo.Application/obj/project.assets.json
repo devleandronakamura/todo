@@ -2,24 +2,23 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "MediatR/12.1.1": {
+      "MediatR/11.1.0": {
         "type": "package",
         "dependencies": {
-          "MediatR.Contracts": "[2.0.1, 3.0.0)",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "MediatR.Contracts": "1.0.1"
         },
         "compile": {
-          "lib/net6.0/MediatR.dll": {
+          "lib/netstandard2.1/MediatR.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/MediatR.dll": {
+          "lib/netstandard2.1/MediatR.dll": {
             "related": ".xml"
           }
         }
       },
-      "MediatR.Contracts/2.0.1": {
+      "MediatR.Contracts/1.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MediatR.Contracts.dll": {
@@ -247,14 +246,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "ToDo.Domain/1.0.0": {
+      "ToDo.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/ToDo.Domain.dll": {}
+          "bin/placeholder/ToDo.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ToDo.Domain.dll": {}
+          "bin/placeholder/ToDo.Core.dll": {}
         }
       },
       "ToDo.Infrastructure/1.0.0": {
@@ -262,7 +261,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.10",
-          "ToDo.Domain": "1.0.0"
+          "ToDo.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ToDo.Infrastructure.dll": {}
@@ -274,33 +273,33 @@
     }
   },
   "libraries": {
-    "MediatR/12.1.1": {
-      "sha512": "1AbwzzeS6gn4NdcO6A9LfKS5TXXgAiUQM3J18dREHa7O7TrdCXJ5dNFeRBpzPZY7UWl5Kby+n9pWrPJe3SDiMA==",
+    "MediatR/11.1.0": {
+      "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
       "type": "package",
-      "path": "mediatr/12.1.1",
+      "path": "mediatr/11.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "gradient_128x128.png",
-        "lib/net6.0/MediatR.dll",
-        "lib/net6.0/MediatR.xml",
-        "lib/netstandard2.0/MediatR.dll",
-        "lib/netstandard2.0/MediatR.xml",
-        "mediatr.12.1.1.nupkg.sha512",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.11.1.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
-    "MediatR.Contracts/2.0.1": {
-      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
       "type": "package",
-      "path": "mediatr.contracts/2.0.1",
+      "path": "mediatr.contracts/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
         "lib/netstandard2.0/MediatR.Contracts.dll",
         "lib/netstandard2.0/MediatR.Contracts.xml",
-        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
       ]
     },
@@ -639,10 +638,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ToDo.Domain/1.0.0": {
+    "ToDo.Core/1.0.0": {
       "type": "project",
-      "path": "../ToDo.Domain/ToDo.Domain.csproj",
-      "msbuildProject": "../ToDo.Domain/ToDo.Domain.csproj"
+      "path": "../ToDo.Core/ToDo.Core.csproj",
+      "msbuildProject": "../ToDo.Core/ToDo.Core.csproj"
     },
     "ToDo.Infrastructure/1.0.0": {
       "type": "project",
@@ -652,7 +651,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MediatR >= 12.1.1",
+      "MediatR >= 11.1.0",
+      "ToDo.Core >= 1.0.0",
       "ToDo.Infrastructure >= 1.0.0"
     ]
   },
@@ -683,6 +683,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj": {
+              "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Core\\ToDo.Core.csproj"
+            },
             "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\leand\\Downloads\\ToDo\\ToDo.Infrastructure\\ToDo.Infrastructure.csproj"
             }
@@ -701,7 +704,7 @@
         "dependencies": {
           "MediatR": {
             "target": "Package",
-            "version": "[12.1.1, )"
+            "version": "[11.1.0, )"
           }
         },
         "imports": [
